@@ -27,10 +27,11 @@ public class LibraCraft {
 		FMLCommonHandler.instance().bus().register(new ConfigHandler());
 		ItemInit.init();
 		BlockInit.init();
+		
 	}
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event){
-		
+        proxy.registerRenderThings();
 
 	}
 	@Mod.EventHandler
