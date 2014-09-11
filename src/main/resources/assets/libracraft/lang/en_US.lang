@@ -1,0 +1,5 @@
+#Items
+item.libracraft:Wrench.name=Wrench
+
+#Blocks
+tile.libracraft:EnergyCube.name=Energy Cube

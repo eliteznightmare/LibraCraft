@@ -1,0 +1,16 @@
+[
+{
+  "modid": "LibraCraft",
+  "name": "LibraCraft",
+  "description": "Energy Balenced",
+  "version": "1.7.10-A-1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Eliteznightmare"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
