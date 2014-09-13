@@ -3,3 +3,4 @@ item.libracraft:Wrench.name=Wrench
 
 #Blocks
 tile.libracraft:EnergyCube.name=Energy Cube
+tile.libracraft:EnergyGen.name=Energy Generator

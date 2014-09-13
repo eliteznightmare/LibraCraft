@@ -1,6 +1,10 @@
 package libraCraft;
 
 import libraCraft.blocks.BlockInit;
+import libraCraft.blocks.tileEntity.LCBlockEnergyTE;
+import libraCraft.blocks.tileEntity.TEEnergyCube;
+import libraCraft.blocks.tileEntity.TEEnergyGen;
+import libraCraft.blocks.tileEntity.TEEnergyGrowth;
 import libraCraft.handler.ConfigHandler;
 import libraCraft.items.ItemInit;
 import libraCraft.proxy.IProxy;
@@ -32,6 +36,10 @@ public class LibraCraft {
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event){
         proxy.registerRenderThings();
+        GameRegistry.registerTileEntity(TEEnergyCube.class, "EnergyCube");
+		GameRegistry.registerTileEntity(LCBlockEnergyTE.class, "Energybase");
+		GameRegistry.registerTileEntity(TEEnergyGen.class, "EnergyGen");
+		GameRegistry.registerTileEntity(TEEnergyGrowth.class, "EnergyGrowth");
 
 	}
 	@Mod.EventHandler

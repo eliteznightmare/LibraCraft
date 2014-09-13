@@ -29,6 +29,7 @@ public class ItemWrench extends LCItem {
 					System.out.println("Energy: " + tile1.energy);
 					System.out.println("Max Enegry: " + tile1.maxEnergy);
 					System.out.println("Packet Size: " + tile1.packetAmount);
+					System.out.println("Fuel Level: " + tile1.fuel);
 				}
 			}
 		}
