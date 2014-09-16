@@ -22,6 +22,7 @@ public class LCBlockEnergyTE extends TileEntity {
 	public boolean canReceive = false;
 
 	public void writeToNBT(NBTTagCompound nbt) {
+		super.writeToNBT(nbt);
 		nbt.setInteger("energy", energy);
 		nbt.setInteger("packetAmount", packetAmount);
 		nbt.setInteger("maxEnergy", maxEnergy);
@@ -32,6 +33,7 @@ public class LCBlockEnergyTE extends TileEntity {
 
 	@Override
 	public void readFromNBT(NBTTagCompound nbt) {
+		super.readFromNBT(nbt);
 		energy = nbt.getInteger("energy");
 		packetAmount = nbt.getInteger("packetAmount");
 		maxEnergy = nbt.getInteger("maxEnergy");
